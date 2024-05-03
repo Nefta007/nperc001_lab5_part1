@@ -92,7 +92,7 @@ int TickFtn_Sonar(int state){
     switch (state)
     {
     case sonar_off:
-        (PINC >> 2) == 1;
+        //(PINC >> 2) == 1;
         state = sonar_on;
         break;
     
